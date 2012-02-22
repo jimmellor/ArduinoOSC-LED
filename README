@@ -1,0 +1,7 @@
+Arduino Sketch to interface OSC over Ethernet with buttons (OSC inputs) and LEDs (OSC outputs) on an arduino.
+
+Tested on a Duemilanove, probably works on all of them.
+
+Uses OSC library Z_OSC https://github.com/djiamnot/Z_OSC which is forked from the OSC library mentioned http://www.arduino.cc/playground/Interfacing/MaxMSP (scroll down)
+
+Doesn't deal with OSC Bundles at all. Included is a little Ruby OSC client/host that can run on the localhost and unbundle OSC messages which applications such as NI Reaktor use.
