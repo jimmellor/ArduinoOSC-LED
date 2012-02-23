@@ -1,6 +1,6 @@
 Arduino Sketch to interface OSC over Ethernet with buttons (OSC inputs) and LEDs (OSC outputs) on an arduino.
 
-Tested on a Duemilanove, probably works on all of them.
+Tested on an Arduino Ethernet, probably works on all of them with support for Ethernet.
 
 Uses OSC library Z_OSC https://github.com/djiamnot/Z_OSC which is forked from the OSC library mentioned http://www.arduino.cc/playground/Interfacing/MaxMSP (scroll down)
 
